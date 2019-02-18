@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../design/style.css">
+    <title>Reteta</title>
+</head>
+<body id="body-add">
+        <div id="products" class="container container-products">
+                <div class="row container-main__top">
+                    <div class="col-12 logo div-flex">
+                        <img class="div-flex__module" src="../../design/img/clock.png" alt="clock">
+                        <h1 class="div-flex__module ">Cald si Bun - Restaurant Menu</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="header-details">
+                        <div class="header-details__number">30</div>
+                        <div class="header-details__welcome">Bun venit la restaurantul Bun si cald!</div>
+                        <div class="header-details__add">
+                            <a href="../../index.html" class="btn product-add">Back To Admin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    <div id="container-fluid" class="adauga-reteta">
+            <form class="adaugaMeniuNou">
+                <div class="col-12 menu-item">
+                    <label class="col-6" for="addNewMenuTitle">Adaugati titlul meniului nou</label>
+                    <input class="col-6" type="text" name="MeniuNou" id="addNewMenuTitle" placeholder="Adaugati titlul meniului">
+                </div>
+                <div class="col-12 menu-item">
+                    <label class="col-6" for="addNewMenuIngredients">Adaugati ingrediente</label>
+                    <input class="col-6" type="text" name="MeniuNou" id="addNewMenuIngredients" placeholder="Adaugati ingredientele meniului">
+                </div>
+                <div class="col-12 menu-item">
+                    <label class="col-6" for="addNewMenuImage">Adaugati imaginea meniului</label>
+                    <input class="col-6" type="text" name="MeniuNou" id="addNewMenuImage" placeholder="Adaugati imaginea meniului">
+                </div>
+                <div class="col-12 menu-item">
+                    <label class="col-6" for="addNewMenuReteta">Adaugati reteta meniului</label>
+                    <textarea class="col-6" name="" id="addNewMenuReteta" cols="108" rows="5"></textarea>
+                </div>
+                <a href="#" id="adaugareProdus" class="btn product-add-new" onclick="addNewMenu();">Adauga Meniu</a>
+            </form>
+        
+    </div>
+        
+    <script src="../app.js"></script>
+</body>
+</html>
